@@ -1,0 +1,28 @@
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+
+            background: linear-gradient(to bottom right, #0ac5ee, #0646fc, #d065e6);
+        }
+        .content{
+            flex:1;
+        }
+        .header{
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+        
+        }
+        .footer {
+            background: rgba(208, 101, 230, 0.7); 
+        }
+        .btn-custom {
+            transition: transform 0.3s, box-shadow 0.3s; 
+        }
+        .btn-custom:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+        }
+        .result-content{
+            display: none;
+        }
