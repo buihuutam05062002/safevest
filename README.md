@@ -16,9 +16,9 @@ Mục đích xây dựng website đơn giản sử dụng yolov8 để phát hi�
 
 ## Giới thiệu
 Dự án này sẽ phát hiện ai có mặc đồ bảo hộ và ai không mặc, chức năng ở đây là phát hiện đối tượng và chia làm 2 nhãn là : vest và no-vest.
-
+---
 ## Cài đặt 
-
+ - git clone https://github.com/buihuutam05062002/safevest.git
 ---
 
 ## Sử dụng
