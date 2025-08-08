@@ -10,13 +10,14 @@ Mục đích xây dựng website đơn giản sử dụng yolov8 để phát hi�
 - [Sử dụng](#sử-dụng)
 - [Tính năng](#tính-năng)
 - [Công nghệ](#công-nghệ)
+- [Giao Diện](#giao-diện)
 - [Tác giả](#tác-giả)
 
 ---
 
 ## Giới thiệu
 Dự án này sẽ phát hiện ai có mặc đồ bảo hộ và ai không mặc, chức năng ở đây là phát hiện đối tượng và chia làm 2 nhãn là : vest và no-vest.
----
+
 ## Cài đặt 
  - git clone https://github.com/buihuutam05062002/safevest.git
 ---
@@ -37,9 +38,21 @@ Dự án này sẽ phát hiện ai có mặc đồ bảo hộ và ai không mặ
  - Phát hiện đối tượng trên ảnh.
  - Phát hiện đối tượng trên video.
 ---
+## Công nghệ
+ - Yolov8
+ - cv2
+ - Flask
+ - bootstrap 5
+
+---
+## Giao Diện
+
+![Giao Diện Chính](static/images/ui.png)
+
+
 
  ## Tác Giả
 
 Tên: Bùi Hữu Tâm
-Gmail: buihuutam05062002@gmail.com
+Gmail: buihuutam05062002@gmail.com || tam01296275375@gmail.com
 GitHub: https://github.com/buihuutam05062002
